@@ -20,3 +20,4 @@ zip 	#—πÀı∫ÕΩ‚—π
 chroot	#change root directory
 ps	#programming status
 cat,more,less,tail,head #display a file content in different style
+wget #download resource through the internet
