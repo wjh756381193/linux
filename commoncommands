@@ -1,0 +1,22 @@
+cd	#change directory
+ls	#list files
+chown	#change user
+chgrp	#change a group	
+newgrp	#switch to a new group
+rpm	#softwareInstall
+grep	#search
+yum	#softwareInstall
+useradd	#add user
+usermod	#modify user
+userdel	#delete User
+chmod	#change mode
+yum install lszrz #安装szrz程序用于命令行下的数据的传输
+ls -l	#longFormat show file 
+rm -rf	#remove
+cp	#copy
+mv	#move or rename
+tar	#generate a tar package
+zip 	#压缩和解压
+chroot	#change root directory
+ps	#programming status
+cat,more,less,tail,head #display a file content in different style
