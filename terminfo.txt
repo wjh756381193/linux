@@ -1,0 +1,10 @@
+有的时候系统命令输入的时候会出现一些问题
+top clear 等命令会出现 xterm “unknown terminal type”类似的提示
+一般来讲都是/usr/share/terminfo 文件夹的东西出现了问题
+解决方式1
+export TERM=vt100
+export TEMCAP=$INFORMIXDIR/etc/termcap
+这样的方式解决只能临时生效 下次登陆的时候已经不能生效了
+解决方式二
+拷贝一个同系列的/usr/share/terminfo 文件夹覆盖出现问题的地方
+在本仓库中的为CentOS6.4下的相应的文件夹
