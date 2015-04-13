@@ -6,6 +6,7 @@ newgrp	#switch to a new group
 rpm		#softwareInstall
 grep	#search
 yum		#softwareInstall
+cat -s /etc/X11/XF86Config| sed '/^[[:space:]]*$/d'	#È¥³ý¿Õ°×ÐÐ
 useradd	#add user
 usermod	#modify user
 userdel	#delete User
