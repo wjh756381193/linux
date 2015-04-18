@@ -8,6 +8,8 @@ grep	#search
 scp		#远程拷贝			用法：scp 本地文件 用户名@远程主机名：路径
 yum		#softwareInstall
 useradd	#add user			
+cat -s /etc/X11/XF86Config| sed '/^[[:space:]]*$/d'	#去除空白行
+useradd	#add user
 usermod	#modify user
 userdel	#delete User
 chmod	#change mode
