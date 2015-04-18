@@ -5,8 +5,9 @@ chgrp	#change a group
 newgrp	#switch to a new group
 rpm		#softwareInstall
 grep	#search
+scp		#远程拷贝			用法：scp 本地文件 用户名@远程主机名：路径
 yum		#softwareInstall
-useradd	#add user
+useradd	#add user			
 usermod	#modify user
 userdel	#delete User
 chmod	#change mode
@@ -30,33 +31,34 @@ clear		#清屏
 date 		#显示日期
 hwclock		#硬件时钟
 reboot		#重新启动
-halt		#关机
-wall		#发送广播
-fdisk		#硬盘分区
-mkfs.ext2/3/4	#格式化
-free		#查看内存的命令
-top			#查看系统的当前的运行的状况
-mail		#发送邮件
-service	xxx --xxx 	#服务的管理
-chkconfig	#启动项的管理
-make 		#编译工具
-gedit/vi/vim	#文本工具
-wc			#统计工具
-iptables -F	#关闭防火墙
-dig			#网络路由的检查
-dd			#读写测试
-file		#查看文件的类型
-find		#文件的查找
-history		#显示命令的执行历史
-ln			#链接
-mount		#挂载
-umount		#卸载
-sync		#把内存的记录存储起来
-setup		#系统设置
-su			#切换用户
-mkdir		#建立目录
-rmdir		#删除目录
-nice		#调整一个程序的优先级
-df			#查看文件的大小
-du			#查看硬盘的使用情况
-alias		#设置别名
+halt									#关机
+wall									#发送广播
+fdisk									#硬盘分区
+mkfs.ext2/3/4							#格式化
+free									#查看内存的命令
+top										#查看系统的当前的运行的状况
+mail									#发送邮件
+service	xxx --xxx 						#服务的管理
+chkconfig								#启动项的管理
+make 									#编译工具
+gedit/vi/vim							#文本工具
+wc										#统计工具
+iptables -F								#关闭防火墙
+dig										#网络路由的检查
+dd										#读写测试
+file									#查看文件的类型
+find									#文件的查找
+history									#显示命令的执行历史
+ln										#链接
+mount									#挂载
+umount									#卸载
+sync									#把内存的记录存储起来
+setup									#系统设置
+su										#切换用户
+mkdir									#建立目录
+rmdir									#删除目录
+nice									#调整一个程序的优先级
+df										#查看文件的大小
+du										#查看硬盘的使用情况
+alias									#设置别名
+yum install nautilus-open-terminal -y	#CentOS桌面版右键打开终端
