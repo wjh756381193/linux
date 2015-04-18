@@ -64,3 +64,4 @@ df													#查看文件的大小
 du													#查看硬盘的使用情况
 alias												#设置别名
 yum install nautilus-open-terminal -y				#CentOS桌面版右键打开终端
+yum upgrade 										#更新系统的软件安装包
