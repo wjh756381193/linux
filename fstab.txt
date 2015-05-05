@@ -1,0 +1,18 @@
+fstab 文件内容实例
+LABEL=/                 /                       ext3    	defaults        	1 	1
+LABEL=/boot1            /boot                   ext3    	defaults        	1 	2
+tmpfs                   /dev/shm                tmpfs   	defaults        	0 	0
+devpts                  /dev/pts                devpts  	gid=5,mode=620  	0 	0
+sysfs                   /sys                    sysfs   	defaults        	0 	0
+proc                    /proc                   proc    	defaults        	0 	0
+文件分析如下以空白符分开的相应的六列 以第一行分析
+第1列是需要挂载的文件系统或存储设备 LABEL表示根分区
+第2列是挂载点						/挂载到系统的根目录下
+第3列指定文件系统或分区的类型		/该分区的文件系统类型为ext3
+第4列为挂载选项 挂载选项包括如下的规则						
+	auto: 系统自动挂载，fstab默认就是这个选项
+	ro: read-only
+	rw: read-write
+	defaults: rw, suid, dev, exec, auto, nouser, and async.
+第5列为dump选项，设置是否让备份程序dump备份文件系统，0为忽略，1为备份。
+第6列为fsck选项，告诉fsck程序以什么顺序检查文件系统，0为忽略。
